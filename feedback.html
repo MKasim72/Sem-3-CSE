@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: aqua;">
+    <!-- <h2>My Feedback Form</h2> -->
+    <fieldset>
+    <legend><h2>Feedback Form</h2></legend>
+    <form>
+        <ul style="list-style-type: disc;">
+            <li><b>Name : </b><input type="text" style="border: 2px solid black; background-color: lightgray;" id="name"></li><br>
+            <li><b>Email : </b><input type="email" id="email" style="border: 2px solid black; background-color: lightgray; "></li><br>
+            <li><b>Password : </b><input type="password" id="passw" style="border: 2px solid black;background-color: lightgray;"></li><br><br>
+            <li><b>Please check all the emotions that apply to you :</b></li><br>
+            <ul style="list-style-type: disc;">
+                <li><b><input type="checkbox" name="angry" id="angry">Angry</b></li>
+                <li><b><input type="checkbox" name="sad" id="sad">Sad</b></li>
+                <li><b><input type="checkbox" name="happy" id="happy">Happy</b></li>
+                <li><b><input type="checkbox" name="ambivalent" id="ambivalent">Ambivalent</b></li>
+            </ul><br>
+            <li><b>How satisfied were you with our service ? </b></li><br>
+            <ul style="list-style-type: disc;">
+                <li><b><input type="radio" name="1" id="1">Very Satisfied</b></li>
+                <li><b><input type="radio" name="2" id="2">Satisfied</b></li>
+                <li><b><input type="radio" name="3" id="3">Didn't care</b></li>
+                <li><b><input type="radio" name="4" id="4">Very dissatisfied</b></li>
+            </ul><br>
+            <li><b>Further comments : </b>
+            <textarea style="border: 2px solid black; background-color: lightgray;" rows="4" cols="25"></textarea>
+            </li><br>
+            <li ><b>Bio photo : <input type="text" style="border: 2px solid black;"> <input type="file"></b></li><br>
+            <li ><b>Location Visited :</b>
+                <select style="border: 2px solid black;">
+                    <option value="1">Ahmedabad</option>
+                    <option value="2">Banglore</option>
+                    <option value="3">Delhi</option>
+                    <option value="4">Mumbai</option>
+                    <option value="5">Hydrabad</option>
+                </select>
+            </li><br>
+            <li><input type="submit" name="sub" id="sub" style="border: 3px solid black; font-size: large;"></li>
+
+            
+
+
+        </ul>
+    </fieldset>
+    </form>
+</body>
+</html>

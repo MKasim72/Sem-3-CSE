@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PDF Form </title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <table cellpadding="10" cellspacing="10">
+                <tr>
+                    <td><b>Username :</b></td>
+                    <td><input type="text" id="text"></td>
+                </tr>
+                <tr>
+                    <td><b>Email :</b></td>
+                    <td><input type="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><b>Password :</b></td>
+                    <td><input type="password" id="passw"></td>
+                </tr>
+                <tr>
+                    <td><b>Hidden :</b></td>
+                    <td><input type="hidden" id="hidden"></td>
+                </tr>
+                <tr>
+                    <td><b>DOB :</b></td>
+                    <td><input type="date" id="date"></td>
+                </tr>
+                <tr>
+                    <td><b>Contact :</b></td>
+                    <td><input type="tel" id="cno"></td>
+                </tr>
+                <tr>
+                    <td><b>Read only :</b></td>
+                    <td><input type="text" id="text" readonly value="Read only text"></td>
+                </tr>
+                <tr>
+                    <td><b>Gender :</b></td>
+                    <td>
+                        <input type="radio" id="Male">Male
+                        <input type="radio" id="Female">Female 
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Educational Qualifications</legend>
+            <table cellpadding="10" cellspacing="10">
+                <tr>
+                    <td><b>SSC% </b></td>
+                    <td><input type="number" id="ssc"></td>
+                </tr>
+                <tr>
+                    <td><b>HSC% </b></td>
+                    <td><input type="number" name="hsc"  id="hsc"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Diploma 
+                        CGPA %  </b></td>
+                    <td><input type="number" name="hsc"  id="hsc"></td>
+
+                    <td><b>Diploma Branch </b>
+                        <select name="Branch" id="Branch" value="Branch">
+                            <option value="1">Information Technology</option>
+                            <option value="2">Computer Technology</option>
+                            <option value="3">Computer and Science Tech</option>
+                            <option value="4">Mechanical Engineering</option>
+                            <option value="5">AIML</option>
+
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Degree
+                        CGPA % :</b></td>
+                    <td><input type="number" name="hsc"  id="hsc"></td>
+                    
+                    </b></td>
+                    <td><b>Branch </b>
+                        <select name="Branch" id="Branch" value="Branch">
+                            <option value="1">Information Technology</option>
+                            <option value="2">Computer Technology</option>
+                            <option value="3">Computer and Science Tech</option>
+                            <option value="4">Mechanical Engineering</option>
+                            <option value="5">AIML</option>
+
+                        </select>
+                    </td>
+                </tr>
+
+
+            </table>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+        <legend>Work Experience</legend>
+        <table cellpadding="10" cellspacing="10">
+            <tr>
+                <td><b>Currently Working  </b></td>
+                <td>
+                    <select name="work" id="work">
+                        <option value="1">Yes</option>
+                        <option value="2">No</option>
+                    </select>
+                </td>
+                <td><b>Total Working Experience :</b></td>
+                <td><input type="number" value="Year"></td>
+            </tr>
+            <tr>
+                <td><b>Do we have Knowledge of ?</b></td>
+                <td>
+                    <input type="checkbox" id="check1">HTML
+                    <input type="checkbox" id="check2">CSS
+                    <input type="checkbox" id="check3">BootStrap
+                    <input type="checkbox" id="check4">Tailwind
+                    <input type="checkbox" id="check5">React JS
+                    <input type="checkbox" id="check6">Node JS
+                    <input type="checkbox" id="check">Angular JS
+                    <input type="checkbox" id="check">Express JS
+                    <input type="checkbox" id="check">Python
+                    <input type="checkbox" id="check">Java
+                </td>
+            </tr>
+            <tr>
+                <td><b>Do You
+                    have any
+                    comments
+                to share ?
+                </b>    
+                </td>
+                <td>
+                    <textarea cols="25" rows="5" placeholder="Enter your Comments"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Upload Your CV </b></td>
+                <td><input type="file" name="file" id="file"></td>
+            </tr>
+        </table>
+        </fieldset>
+        <table cellpadding="10" cellspacing="10">
+        <tr>
+            <td><input type="reset" value="Reset Values"></td>
+            <td><input type="button" value="Click Button"></td>
+            <td><input type="submit" value="Submit Values"></td>
+        </tr>
+        </table>
+ 
+
+    </form>
+
+
+</body>
+</html>
