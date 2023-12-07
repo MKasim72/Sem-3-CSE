@@ -1,0 +1,59 @@
+body {
+    background: black url(pexels-veeterzy-303383.jpg);
+    background-size: 100%, 100%;
+    background-blend-mode: lighten;
+    background-attachment: scroll;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+p {
+    background-color: black;
+    text-indent: 100px;
+    color: black;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+nav {
+    background-color: gray;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.Nav1 {
+    color: red;
+    background-color: black;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#UL1 {
+    float: left;
+    font-size: 18px;
+    display: flex;
+}
+
+#home:hover {
+    color: gray;
+    background-color: black;
+    border-radius: 40px;
+}
+
+#home {
+    padding: 18px;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    background-color: black;
+    border-radius: 40px;
+}
+
+#Insta {
+    float: right;
+}
