@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+
+.pagination a {
+    text-decoration: none;
+    color: red;
+    font-size: 25px;
+    padding: 20px;
+    background-color: navy;
+    transition: all 2s;
+    cursor: pointer;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+}
+
+.pagination a.active {
+    color: gary;
+    background-color: black;
+}
+
+a:hover {
+    background-color: blueviolet;
+    color: navy;
+    font-size: 25px;
+}
+
+
+/* .pagination {
+    text-align: center;
+} */
+
+.button {
+    text-decoration: none;
+    color: red;
+    background-color: navy;
+    padding: 20px;
+    border: 5px solid white;
+    width: 380px;
+    display: block;
+    text-align: center;
+    transition: all 5s;
+}
+
+.button:hover {
+    background-color: blueviolet;
+    color: red;
+    font-size: 25px;
+}

@@ -1,0 +1,29 @@
+img {
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    /* height: 100px;
+    width: 120px; */
+    border: 2px solid;
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+input[type='radio']:checked+label {
+    color: aqua;
+}
+
+div {
+    background-image: linear-gradient(to top, yellow, red);
+}
+
+#text:hover {
+    width: 100px;
+    height: 20px;
+    color: red;
+    /* transition: color ; */
+}
+
+#text {
+    transition: color 2s;
+}

@@ -1,0 +1,29 @@
+img {
+    animation-name: example;
+    width: 150px;
+    height: 150px;
+    /* background-color: red; */
+    animation-duration: 1s;
+    /* font-size: 30px; */
+    /* text-align: center; */
+    animation: example 50s linear 0s infinite;
+    position: absolute;
+    top: 400px;
+}
+
+@keyframes example {
+    from {
+        left: 20px;
+    }
+    to {
+        left: 1000px;
+    }
+}
+
+#div1 {
+    width: 16500px;
+    height: 10px;
+    position: absolute;
+    top: 535px;
+    background-color: black;
+}

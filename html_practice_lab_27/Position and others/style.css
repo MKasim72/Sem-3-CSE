@@ -1,0 +1,91 @@
+a {
+    background-color: black;
+    color: aliceblue;
+    padding: 10px
+}
+
+a:visited {
+    background-color: wheat;
+}
+
+a:hover {
+    padding: 15px;
+    background-color: red;
+    color: black
+}
+
+a:active {
+    background-color: aqua;
+}
+
+p::first-line {
+    color: aqua;
+}
+
+p::first-letter {
+    font-size: 50px;
+    color: red;
+}
+
+h1::before {
+    content: url(bg.jfif);
+}
+
+h1::after {
+    content: url(bg1.jfif);
+}
+
+li::marker {
+    color: green;
+    font-size: 30px;
+    content: "->"
+}
+
+.test {
+    height: 4px;
+    width: 4px;
+    padding: 50px;
+    margin: 10px 15px 10px 15px;
+    float: left;
+    border: 10px solid black;
+}
+
+#test1 {
+    background-color: red;
+}
+
+#test2 {
+    background-color: greenyellow;
+    position: relative;
+}
+
+#test3 {
+    background-color: yellowgreen;
+}
+
+#test4 {
+    background-color: lightblue;
+}
+
+#test5 {
+    background-color: palevioletred;
+}
+
+#test6 {
+    background-color: lightseagreen;
+}
+
+#test7 {
+    background-color: palegoldenrod;
+}
+
+#test8 {
+    background-color: indianred;
+}
+
+.container {
+    height: 500px;
+    width: 770px;
+    border: 10px solid black;
+    position: relative;
+}
