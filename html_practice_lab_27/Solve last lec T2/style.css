@@ -1,0 +1,57 @@
+/* .d1 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: 5;
+    position: absolute;
+}
+
+.d1:hover {
+    transform: rotate(100deg) skew(10deg, 10deg);
+    background-color: red;
+} */
+
+
+/* body {
+    background-color: khaki;
+} */
+
+
+/* @keyframes example {
+    0% {
+        top: 0px;
+    }
+    20% {
+        /* position: absolute; */
+
+
+/* top: 500px;
+left: 0px
+}
+40% {
+    left: 1250px;
+    top: 500px
+}
+60% {
+    top: 0px;
+    left: 1250px;
+}
+80% {
+    left: 0px
+}
+
+} */
+
+
+/* :root {
+    --b: brown;
+    --r: right;
+}
+
+#P1 {
+    --b: blue;
+    --c: center;
+    color: var(--b);
+} */

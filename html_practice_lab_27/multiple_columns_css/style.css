@@ -1,0 +1,24 @@
+.di {
+    column-count: 5;
+    text-align: justify;
+    column-gap: 10px;
+    column-rule: 4px dotted red;
+}
+
+.tool .t {
+    visibility: hidden;
+    width: 150px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+
+.tool {
+    display: inline-block;
+    border: 2px solid black;
+}
+
+.tool:hover .t {
+    visibility: visible;
+}
